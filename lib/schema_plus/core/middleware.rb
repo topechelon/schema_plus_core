@@ -13,7 +13,7 @@ module SchemaPlus
         end
 
         module Indexes
-          ENV = [:connection, :query_name, :table_name, :index_definitions]
+          ENV = [:connection, :table_name, :index_definitions]
         end
 
         module DataSources
